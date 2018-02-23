@@ -1,0 +1,16 @@
+global:
+  marketplace-ami: false
+  owner: jorge@aviatrix.com
+  qsname: avx-awsmp-5tunnel
+  regions:
+    - us-east-1
+    - us-east-2
+    - us-west-1
+    - us-west-2
+  reporting: true
+tests:
+  avx-awsmp-5tunnel:
+    parameter_input: avx-awsmp-5tunnel-params.json
+    template_file: avx-awsmp-5tunnel.template
+    regions:
+      - us-east-1
